@@ -5,115 +5,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Altschool Assignment</title>
-    <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
     <header>
-        <div id="menu-toggle" class="menu-icon">
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
-        </div>
-        <div class="logo">wumi</div>
-        <nav id="nav-menu">
-            <ul id="nav-list">
-                <li><a href="#aboutme">About</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#job">Experience</a></li>
-                <li><a href="#hobby">Hobby</a></li>
-                <li><a href="#skills">Soft Skills</a></li>
-                <li><a href="#contactform">Contact Me</a></li>
+        <nav>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="form.html">Form</a></li>
             </ul>
         </nav>
     </header>
-    <div class="wrapper">
-        <div class="info">
-            <div class="info-text">
-                <h1>Omowumi Adesuyi</h1>
-                <p>I am a Front-end developer with 3 years of experience. I am also a dog mum.</p>
-            </div>
-            <div class="info-image">
-                <img src="images/my-pic.jpg" alt="">
-            </div>
-        </div>
-        <!-- About Me Section -->
-        <div id="aboutme">
-            <h5>About Me</h5>
-            <p>I am a self-taught frontend developer based in Lagos, Nigeria. I am very passionate about making the web
+
+    <div class="aboutme-container">
+        <div>
+            <h1>About Me</h1>
+            <p>
+                I am a self-taught frontend developer based in Lagos, Nigeria. I am very passionate about making the web
                 accessible and
                 dedicated to my work.
-
-                I enjoy every bit of converting and building web designs into end products,
-                making it an attractive user interfaces for end-users
             </p>
-            <p>My goal for this diploma course is to learn new things, and meet with people.</p>
+            <p>I enjoy every bit of converting and building web designs into end products,
+                making it an attractive user interfaces for end-users.
+            </p>
         </div>
-        <!-- Education Section -->
-        <div id="education">
-            <h5>Education</h5>
-            <ul>
-                <li>High School</li>
-                <li>Diploma in Software Engineering</li>
-            </ul>
+        <div class="reason">
+            <h1>Why I Joined AltSchool and Achievement</h1>
+            <p>
+                As someone deeply passionate about technology and its transformative power, I believe that enrolling in
+                AltSchool
+                will provide me with invaluable skills and opportunities to achieve my goals.
+            </p>
+            <p>
+                I am excited about the prospect of connecting with like-minded individuals who share a passion for
+                technology. Being
+                part of a community of learners and professionals will not only enhance my learning experience but also
+                provide a
+                support system that fosters collaboration and growth.
+            </p>
         </div>
-        <!-- Job Experience Section -->
-        <div id="job">
-            <h5>Experience</h5>
-            <ul class="job">
-                <li>Currently working at Revwit</li>
-                <li>Worked at Patricia Technologies</li>
-                <li>Mentored at ZuriTeams</li>
-                <li>Mentored at HNG Internship</li>
-            </ul>
-        </div>
-        <!-- Hobby Section -->
-        <div id="hobby">
-            <h5>Hobbies</h5>
-            <ul class="hobbies">
-                <li>Cooking</li>
-                <li>Taking my pet on a walk</li>
-                <li>Seeing movies with friends</li>
-                <li>Reading</li>
-            </ul>
-        </div>
-        <!-- Other Skills Section -->
-        <div id="skills">
-            <h5>Soft Skills</h5>
-            <ul>
-                <li>Emotional Intelligencw</li>
-                <li>Communication</li>
-                <li>Collaboration</li>
-            </ul>
-        </div>
-        <!-- Contact Section -->
-        <div id="contact-form">
-            <h5>Contact Me</h5>
-            <div class="form">
-                <form>
-                    <label for="FirstName">First Name:</label>
-                    <input type="text" required placeholder="Enter your first name"><br><br>
-                    <label for="LastName">Last Name:</label>
-                    <input type="text" required placeholder="Enter your last name"><br><br>
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required placeholder="Enter your email"><br><br>
-                    <label for="message">Message:</label><br>
-                    <textarea id="message" name="message" rows="4" cols="50" required
-                        placeholder="Type message here..."></textarea><br><br>
-                    <label for="priority">Priority:</label>
-                    <select id="priority" name="priority">
-                        <option value="low">Low</option>
-                        <option value="medium">Medium</option>
-                        <option value="high">High</option>
-                    </select><br><br>
-
-                    <input type="submit" value="Submit">
-                </form>
-            </div>
+        <div class="footer">
+            <p>&copy; Made with ❤️</p>
         </div>
     </div>
-
-    <script src="nav.js"></script>
 </body>
 
 </html>
